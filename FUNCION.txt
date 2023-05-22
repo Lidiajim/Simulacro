@@ -1,0 +1,12 @@
+
+
+
+const generalMean() = await Product.findAll({
+where: {
+RestaurantId: { [Sequelize.Op.ne] : restaurantId}  //  { req.body.restaurantId}
+},
+attributes: [
+[Sequelize. fn('AVG', Sequelize. col('price')), 'avgprice']
+]
+})
+console. log('AVG: ' + queryResultOtherUsersOrdersAvgShippingCosts.dataValues.avgShippingCosts)
