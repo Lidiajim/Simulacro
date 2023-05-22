@@ -50,3 +50,4 @@ Realice todos los cambios necesarios en el proyecto de frontend para implementar
 
 
 ![captura3](https://user-images.githubusercontent.com/19324988/235651853-e1d13916-4f47-4e17-97e0-5696b647bee7.png)
+"# Simulacro" 
